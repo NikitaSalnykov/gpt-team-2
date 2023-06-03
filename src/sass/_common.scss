@@ -1,1 +1,37 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+background-color: #36393f;
+  color: #dcddde;
+  font-family: 'Whitney', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.start-link {
+  font-size: 18px;
+  color: #ffffff;
+}
